@@ -1,0 +1,253 @@
+body {
+    width: 100%;
+}
+
+.row {
+    float: right;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.col {
+    cursor: pointer;
+    max-width: 950px;
+    max-height: 1000px;
+    min-width: 300px;
+    min-height: 390px;
+    position: relative;
+    -webkit-transition: 400ms ease-in-out;
+    -moz-transition: 400ms ease-in-out;
+    -o-transition: 400ms ease-in-out;
+    opacity: 1;
+    overflow: hidden;
+}
+
+.col:hover .letter {
+    position: relative;
+    opacity: .2;
+    transition-duration: 400ms;
+}
+
+.col:hover .content-div img {
+    opacity: 1;
+    margin-top: 15%;
+    -webkit-transition: 400ms ease-in-out;
+    -moz-transition: 400ms ease-in-out;
+    -o-transition: 400ms ease-in-out;
+}
+
+.content-div {
+    position: absolute;
+    width: 35rem;
+    text-align: center;
+    top:38%;
+    left:50%;
+    transform:translate(-50%, -50%);
+}
+
+.content-div img {
+    margin-bottom: 5%;
+    opacity: 0;
+    -webkit-transition: 400ms ease-in-out;
+    -moz-transition: 400ms ease-in-out;
+    -o-transition: 400ms ease-in-out;
+}
+
+.h1 {
+    margin: 0;
+    -webkit-transition: 400ms ease-in-out; /* Safari and Chrome */
+    -moz-transition: 400ms ease-in-out; /* Firefox 4 */
+    -o-transition: 400ms ease-in-out; /* Opera */
+    color: white;
+    font-family: "OpenSans";
+    font-size: calc(1.2em + 1vw);
+}
+
+.letter {
+    position: relative;
+    margin: 0;
+    top: 70%;
+    left: 65%;
+    font-size: 35em;
+    font-family: "OpenSans";
+    line-height: 0;
+    opacity: 0;
+    transition-duration: 400ms;
+}
+
+.color-back {
+    filter: brightness(50%);
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    transition: 400ms;
+}
+
+.shadow:hover .color-back {
+    filter: brightness(100%);
+    opacity: 1;
+    transition: 500ms;
+}
+
+
+#mosigra-red {
+    background: #e64d48;
+}
+#dantone-blue {
+    background: #121e36;
+}
+#heli-blue {
+    background: #3664b2;
+}
+#infotecs-grayblue {
+    background: #235a90;
+}
+#dtgroup-orange {
+    background: #ff4400;
+}
+#aberton-darkblue {
+    background: #102f4b;
+}
+#alpen-gray {
+    background: #3a3935;
+}
+#adalux-yellow {
+    background: #ffd374;
+}
+#global-red-orange {
+    background: #e21f1d;
+}
+#rezap-green {
+    background: #4dab79;
+}
+#poxod-green-salat {
+    background: #7eb84a;
+}
+#mosparahod-orange {
+    background: #e94625;
+}
+#metodlit-green {
+    background: #019966;
+}
+#worldhats-gradient {
+    background: linear-gradient(to right top, #5a9a0e, #7f9200, #9e8900, #b87d00, #ce7018);
+}
+#yurmino-blue {
+    background: #51bdec;
+}
+
+
+#mosparahod .letter {
+    color: white;
+}
+#dantone .letter {
+    color: white;
+}
+
+
+#mosigra {
+    background: url("images/mosigra/bg-case-mosigra-black.jpg");
+    background-size: cover;
+}
+#dantone {
+    background: url("images/dantone/bg-case-dantonehome-black.jpg");
+    background-size: cover;
+}
+#heli {
+    background: url("images/heliClub/bg-case-heliclub-black.jpg");
+    background-size: cover;
+}
+#infotecs {
+    background: url("images/infotecs/bg-case-infotecs-black.jpg");
+    background-size: cover;
+}
+#dtgroup {
+    background: url("images/dtGroup/bg-case-dtgroup-black.jpg");
+    background-size: cover;
+}
+#aberton {
+    background: url("images/aberton/bg-case-aberton-black.jpg");
+    background-size: cover;
+}
+#alpen {
+    background: url("images/alpenEuro/bg-case-alpeneuro-black.jpg");
+    background-size: cover;
+}
+#adalux {
+    background: url("images/adalux/bg-case-adalux-black.jpg");
+    background-size: cover;
+}
+#global {
+    background: url("images/globalDialogs/bg-case-globaldialog-black.jpg");
+    background-size: cover;
+}
+#rezap {
+    background: url("images/reZap/bg-case-rezap-black.jpg");
+    background-size: cover;
+}
+#poxod {
+    background: url("images/superPochod/bg-case-superpohod-black.jpg");
+    background-size: cover;
+}
+#mosparahod {
+    background: url("images/mosParahodstvo/bg-case-mosparohodstvo-black.jpg");
+    background-size: cover;
+}
+#metodlit {
+    background: url("images/metodlit/bg-case-metodlit-black.jpg");
+    background-size: cover;
+}
+#worldhats {
+    background: url("images/worldHats/bg-case-mirshapok-black.jpg");
+    background-size: cover;
+}
+#yurmino {
+    background: url("images/yurmino/bg-case-yurmino-black.jpg");
+    background-size: cover;
+}
+
+
+#mosigra-logo {
+    width: 100px;
+}
+#infotecs-logo {
+    width: 180px;
+}
+#aberton-logo {
+    width: 200px;
+}
+#alpen-logo {
+    width: 200px;
+}
+#adalux-logo {
+    width: 200px;
+}
+#global-logo {
+    width: 180px;
+}
+#poxod-logo {
+    width: 200px;
+}
+#mosparahod-logo {
+    width: 200px;
+}
+#metodlit-logo {
+    width: 100px;
+}
+#worldhats-logo {
+    width: 200px;
+}
+
+
+@font-face {
+    font-family: OpenSans;
+    src: url('fonts/OpenSans-Bold.ttf');
+}
+
+
+
+
+
